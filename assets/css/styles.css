@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+* {
+    font-family: 'Akshar', sans-serif;
+}
+
+body {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.925) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(73, 74, 78);
+    background-color: rgb(214, 232, 241);
+    color: rgb(73, 74, 78);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+.text{
+    text-transform: uppercase;
+    font-family: 'Koulen', cursive;
+}
+#contador {
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+.footer {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 5px;
+    padding: 10px;
+    bottom: 1%;
+    left: auto;
+    text-align: center;
+    width: 98%;
+    position: absolute;
+}
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #c81540
+}
+.increment:hover{
+    color: green;
+}
+.decrement:hover{
+    color:red;
+}
